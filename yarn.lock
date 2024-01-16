@@ -1075,7 +1075,7 @@ available-typed-arrays@^1.0.5:
   resolved "https://registry.npmmirror.com/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
-axios@^1.6.2:
+axios@^1.6.5:
   version "1.6.5"
   resolved "https://registry.npmmirror.com/axios/-/axios-1.6.5.tgz#2c090da14aeeab3770ad30c3a1461bc970fb0cd8"
   integrity sha512-Ii012v05KEVuUoFWmMW/UQv9aRIc3ZwkWDcM+h5Il8izZCtRVpDUfwpoFf7eOtajT3QiGR4yDUx7lPqHJULgbg==
@@ -1659,6 +1659,25 @@ human-signals@^2.1.0:
   resolved "https://registry.npmmirror.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
 
+imba-cache@1.1.13:
+  version "1.1.13"
+  resolved "https://registry.npmmirror.com/imba-cache/-/imba-cache-1.1.13.tgz#5673a6d5f1c0fe54cddec8048f63a94e293bd8de"
+  integrity sha512-6C9svkndf8REbFQmpNxE17e43Wp2Sz1jcIzIoboEFi0GOKW7rSmgFQsGiswJSxp8gJ7ZNIJrl1+n9BvBTynb1Q==
+
+imba-md5@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/imba-md5/-/imba-md5-1.0.0.tgz#a799c0cb41430742d97a12b50912665b4b307f82"
+  integrity sha512-5PwK4bhU86f6/YxMgvfuqQkAOO6bBr8Thow5OQxbAGHUOoxwzQ8/MgyTw47F5+o4YJXRMdjQORINAWZBfcooMQ==
+
+imba-request@^1.0.25:
+  version "1.0.25"
+  resolved "https://registry.npmmirror.com/imba-request/-/imba-request-1.0.25.tgz#f41af8e02b7624a9c66fffa47d74e3bd5a2d5e04"
+  integrity sha512-RbssVeN6SeAii6hWmKdLDPwxE2ikkHkH9/hhVwIt4LgvYUUMbQ5vRTCtCtqTPV2351nZdmP7deoSz5oGinTqsQ==
+  dependencies:
+    imba-cache "1.1.13"
+    imba-md5 "1.0.0"
+    qs-stringify "^1.2.1"
+
 immutable@^4.0.0:
   version "4.3.4"
   resolved "https://registry.npmmirror.com/immutable/-/immutable-4.3.4.tgz#2e07b33837b4bb7662f288c244d1ced1ef65a78f"
@@ -2154,6 +2173,11 @@ proxy-from-env@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmmirror.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz#e102f16ca355424865755d2c9e8ea4f24d58c3e2"
   integrity sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==
+
+qs-stringify@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.npmmirror.com/qs-stringify/-/qs-stringify-1.2.1.tgz#9b39ef6b816bd83309628fc9dad435fc0eccc28b"
+  integrity sha512-2N5xGLGZUxpgAYq1fD1LmBSCbxQVsXYt5JU0nU3FuPWO8PlCnKNFQwXkZgyB6mrTdg7IbexX4wxIR403dJw9pw==
 
 queue-microtask@^1.2.2:
   version "1.2.3"

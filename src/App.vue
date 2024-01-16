@@ -1,11 +1,11 @@
 <template>
 <!--  <layout></layout>-->
-  <xiaoman></xiaoman>
+  <img id="img" src="./assets/1.png" alt="">
 </template>
 <script setup lang="ts">
-import xiaoman from "./App"
 
-
+  const instance = getCurrentInstance()
+  // console.log(instance?.proxy?.$loading.show())
 </script>
 <style lang="scss">
 #app {

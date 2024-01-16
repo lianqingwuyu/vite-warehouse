@@ -6,7 +6,9 @@ import {initRouter} from "./router"
 import 'vue-global-api'
 // 全局样式
 import 'uno.css'
+import Loading from "./components/loading"
 
 const app = createApp(App)
 initRouter(app)
+app.use(Loading)
 app.mount('#app')
